@@ -1,0 +1,286 @@
+
+.perfil{
+  width: 100px;
+  height: 100px;
+}
+.img-form{
+width: 100px;
+height: 100px;
+}
+@font-face {
+  font-family: lola;
+  src: url(letra1.ttf);
+}
+.per {
+  font-family: lola;
+  font-size: 47px;
+  border-radius: 56px;
+  height: 65px;
+  margin-left: 70px;
+  background:#ED3B58 ;
+  color: #fff;
+}
+.per:hover {
+  background: #CA1A36;
+}
+.desc{
+  border-radius: 0%;
+  border-style: none;
+}
+
+
+.pre{
+  border-radius: 10px;
+}
+.sli {
+  height: 500px
+}
+.fond{
+  background: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  text-align: center;
+  margin-left: -167px;
+
+}
+.logo{
+  width: 200px;
+  height: 60px;
+  font-size: 100px;
+}
+
+.titulo{
+  color: #fff;
+}
+.p1{
+  height: 150px;
+}
+.crea{
+  text-align: center;
+}
+.valor{
+  margin-left: 60px;
+  margin-top: -45px;
+  padding-bottom: 40px;
+}
+.valor1{
+  margin-left: 50px;
+  margin-top: -30px;
+
+}
+
+.like{
+  width: 40px;
+  height: 40px;
+}
+
+
+.container {
+  margin-top: 12px ;
+
+}
+.con {
+  margin-top: 0px;
+  background: rgba(255,255,255,0.75);
+  -webkit-box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+  box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+}
+.con2{
+
+  -webkit-box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+  box-shadow: -2px 9px 27px -11px rgba(0,0,0,0.75);
+
+}
+.con3{
+  -webkit-box-shadow: 16px 9px 27px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 16px 9px 27px -11px rgba(0,0,0,0.75);
+  box-shadow: 16px 9px 27px -11px rgba(0,0,0,0.75);
+}
+.lupa{
+  width: 20px;
+  height: 20px;
+}
+
+.btn  a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px ;
+  width: 70px;
+  background:#ED3B58;
+  border-radius: 10px;
+}
+
+
+a.btn2:hover {
+  
+  color: blue;
+}
+a.btn3:hover {
+  color: yellowgreen;
+  
+}
+a.btn4:hover{
+   color: red;
+   
+}
+a.btn5:hover {
+  color:gold ;
+  
+
+}
+a.btn6:hover{
+  color: violet ;
+  
+  
+}
+a.btn7:hover {
+  color: orangered ;
+  
+}
+.im-p{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.p{
+
+position: fixed;
+
+}
+.c{
+  color :#ED3B58;
+  font-size:30px;
+}
+
+a:link{
+  text-decoration: none;
+}
+.botonn{
+  width: 300px;
+}
+
+
+
+
+
+.im-p:hover{
+ background-color: rgb(52, 52, 56); opacity: 0.8;
+}
+.cont-1 {
+  margin-top: 50px;
+}
+.cont-2{
+  height: 100%;
+  width: 1px;
+  border-radius: 1px;
+  background: #ccc;
+}
+
+.noti{
+  width: 10px;
+  height: 10px;
+}
+.btnn{
+  float: left;
+}
+
+.btn-bus{
+  margin-left: 50px;
+  border-radius: 50px;
+  width: 500px;
+}
+.btn-ini2 {
+  color: #ED3B58;
+  
+
+}
+#media-input {
+  display: block;
+  width: 100px;
+  height: 200px;
+  line-height: 200px;
+  opacity: 0;
+  position: relative;
+  z-index: 9;
+  padding-bottom: 200px;
+}
+:root {
+    --bg: #fff;
+    --color: #ED3B58;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+    
+}
+.cardi{
+  border: none;
+}
+
+
+.button {
+    border: none;
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+    
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="checkbox"]:focus,
+input[type="submit"]:focus,
+input[type="date"]:focus,
+input[type="search"]:focus{   
+  border-color: rgba(255, 25, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(221, 0, 0, 0.712);
+  outline: 0 none;
+}
+.buscador{
+  border-color:rgba(255, 25, 0, 0.8);
+  
+}

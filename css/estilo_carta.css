@@ -1,0 +1,21 @@
+.pro{
+    height: 3px;
+}
+.bac{
+    background-color: rgb(255, 193, 193);
+
+}
+a{
+    text-decoration: none;
+}
+.hover_c:hover{
+    box-shadow: 11px 13px 34px -8px rgba(0,0,0,0.27);
+    text-decoration: none;
+
+}
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+    outline-color: white;
+}

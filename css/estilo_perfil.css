@@ -1,0 +1,12 @@
+body{
+    background-image: url(/img/fondo3.jpg);
+    background-attachment: fixed;
+}
+.img_p{
+    height: 250px;
+    width: 250px;
+}
+.img_f{
+    height: 50px;
+    width: 50px; 
+}
